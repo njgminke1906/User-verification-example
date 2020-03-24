@@ -6,9 +6,9 @@ Simpel POC van hoe een user zijn account kan verifiëren
    Hernoem hierna deze file naar .env    
 2: Google vereist dat je een bepaalde setting in je account aan zet. Dit komt waarschijnlijk omdat deze app niet als vertrouwd geregistreerd staat bij Google.  
    Ga naar: https://myaccount.google.com/lesssecureapps  
-   Je ziet dat een optie die je aan kan vinken, doe dat. (Je kan deze setting later weer uit zetten)    
-2: Run het project met: npm start    
-3: Open postman en stuur de volgende POST request naar: localhost:3000/users/register  
+   Je ziet dat je daar één optie kan aanvinken, doe dat. (Je kan deze setting later weer uit zetten)    
+3: Run het project met: npm start    
+4: Open postman en stuur de volgende POST request naar: localhost:3000/users/register  
    Met als body:  
    {  
 	   "name": "Frans",  
@@ -16,5 +16,5 @@ Simpel POC van hoe een user zijn account kan verifiëren
    }  
    Mocht het zo zijn dat het authenticatie process gedenied wordt, dan kan dat zijn omdat je two-factor authentication heb aanstaan.  
    Als het mogelijk is moet je dat even uitzetten, en probeer het dan nog eens.    
-4: Als het goed is krijg je nu een email naar het opgegeven emailadres van de aangemaakte user.    
-5: Klik op de link in de email, en als het goed is wordt je dan doorverwezen naar een pagina die zegt dat de gebruiker geverifieerd is.    
+5: Als het goed is krijg je nu een email naar het opgegeven emailadres van de aangemaakte user.    
+6: Klik op de link in de email, en als het goed is wordt je dan doorverwezen naar een pagina die zegt dat de gebruiker geverifieerd is.    
